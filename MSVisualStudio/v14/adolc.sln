@@ -1,14 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "adolc", "adolc.vcxproj", "{43459339-26DA-B162-0783-4ED235513520}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C960E4D8-CE08-FDD2-02FD-6394A67739EA} = {C960E4D8-CE08-FDD2-02FD-6394A67739EA}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColPack", "ColPack\ColPack.vcxproj", "{C960E4D8-CE08-FDD2-02FD-6394A67739EA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColPack", "ColPack/ColPack.vcxproj", "{C960E4D8-CE08-FDD2-02FD-6394A67739EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,5 +37,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {675F87E4-43B7-4127-9993-89111C296DCD}
 	EndGlobalSection
 EndGlobal
